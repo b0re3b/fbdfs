@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seminar 5(2b)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .container {
+            margin: 15px;
+            display: grid;
+            gap: 8px;
+            grid-template-columns: repeat(4, 1fr);
+            height: 600px;
+            width: 700px;
+        }
+
+        .container :first-child {
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .container :last-child {
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .container > div {
+            background-color: #444444;
+            padding: 17px;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="container">
+      <div>My header</div>
+      <div>Panel A</div>
+      <div>Panel B</div>
+      <div>Panel C</div>
+      <div>Panel D</div>
+      <div>Panel E</div>
+      <div>Panel F</div>
+      <div>Panel G</div>
+      <div>Panel H</div>
+      <div>Panel I</div>
+      <div>Panel J</div>
+      <div>My footer</div>
+  </div>
+</body>
+</html>
